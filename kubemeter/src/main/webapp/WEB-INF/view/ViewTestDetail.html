@@ -1,0 +1,55 @@
+   <script type="text/javascript" src="js/viewTestDetail.js"></script>
+   <script type="text/javascript" src="js/stopTest.js"></script>
+   
+    <br>
+    <div >
+	<table id="tableTestDetail">
+		<thead>
+			<tr><th colspan="2" >Test Detail <span style="float: right;"><button>Stop Test</button><button>Download Results</button></span></th></tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>ID</td>
+				<td id="tdTestId"></td>
+			</tr>
+			<tr>
+				<td>Name</td>
+				<td id="tdTestName"></td>
+			</tr>
+			<tr>
+				<td>Status</td>
+				<td id="tdTestStatus"></td>
+			</tr>
+			<tr>
+				<td>Start Time</td>
+				<td id="tdTestStartTime"></td>
+			</tr>
+			<tr>
+				<td>End Time</td>
+				<td id="tdTestEndTime"></td>
+			</tr>
+			<tr>
+				<td>Test Cluster</td>
+				<td id="tdTestCluster">
+					<div class="scrollable">
+					<table id="tableTestCluster" class="zebraTable">
+						<thead>
+							<tr>
+								<th>POD Name</th>
+								<th>POD Status</th>
+								<th>Threads Count</th>
+								<th>Throughput</th>
+								<th></th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							
+						</tbody>
+					</table>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
